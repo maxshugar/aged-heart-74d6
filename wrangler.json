@@ -1,0 +1,30 @@
+{
+  "name": "aged-heart-74d6",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "shiny-disk-2c02-d1",
+      "database_id": "75e54771-c454-447f-b600-2a94312febf2"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "aged-heart-74d6-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
